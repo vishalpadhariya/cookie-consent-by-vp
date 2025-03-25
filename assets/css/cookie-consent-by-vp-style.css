@@ -1,0 +1,25 @@
+#ccvp-gdpr-ccpa-cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ccvp-gdpr-ccpa-hidden {
+    display: none !important;
+}
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
