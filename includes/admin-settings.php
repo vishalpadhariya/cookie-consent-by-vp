@@ -2,7 +2,7 @@
 /**
  * Cookie Consent Admin Settings
  *
- * @package CookieConsentByVP
+ * @package Cookie_Consent_By_VP
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -2,7 +2,7 @@
 /**
  * Enqueue scripts and styles for Cookie Consent By VP.
  *
- * @package CookieConsentByVP
+ * @package Cookie_Consent_By_VP
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function ccvp_consent_enqueue_scripts() {
 	wp_enqueue_style( 'ccvp-gdpr-ccpa-style', CC_GDPR_CCPA_VP_URL . 'assets/css/cookie-consent-by-vp-style.css', array(), filemtime( CC_GDPR_CCPA_VP_DIR . 'assets/css/cookie-consent-by-vp-style.css' ) );
-	wp_enqueue_script( 'ccvp-gdpr-ccpa-script', CC_GDPR_CCPA_VP_URL . 'assets/js/cookie-consent-by-vp-script.js', array( 'jquery' ), filemtime( CC_GDPR_CCPA_VP_DIR . 'assets/css/cookie-consent-by-vp-script.js' ), true );
+	wp_enqueue_script( 'ccvp-gdpr-ccpa-script', CC_GDPR_CCPA_VP_URL . 'assets/js/cookie-consent-by-vp-script.js', array( 'jquery' ), filemtime( CC_GDPR_CCPA_VP_DIR . 'assets/js/cookie-consent-by-vp-script.js' ), true );
 
 	$settings = get_option( 'ccvp_consent_cookie_settings' );
 	wp_localize_script(
